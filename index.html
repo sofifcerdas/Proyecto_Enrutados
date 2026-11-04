@@ -90,14 +90,54 @@
             </form>
        </section>
 
-       <section id="Foros">
-            <h2>Foros en tiempo real</h2>
-            <p> En este apartado va a poder ver los reportes de su ruta de interes, desde personas que se encuentran en dichas rutas</p>
-            <h2>No hay informacion disponible!</h2>
-       </section>
+      
+<section id="Foros">
+    <h2>Foro de reportes</h2>
+    <p>Comparte información sobre atrasos, presas y problemas en las rutas de autobuses.</p>
 
+    <div class="foro-formulario">
+        <h3>Publicar un reporte</h3>
 
+        <label for="nombreReporte">Nombre:</label>
+        <input type="text" id="nombreReporte" placeholder="Escribe tu nombre">
 
+        <label for="rutaReporte">Ruta:</label>
+        <input type="text" id="rutaReporte" placeholder="Ejemplo: San José - Cartago">
+
+        <label for="detalleReporte">Descripción:</label>
+        <textarea id="detalleReporte" rows="4" placeholder="¿Qué sucedió?"></textarea>
+
+        <button type="button">Publicar reporte</button>
+    </div>
+
+    <h3>Reportes recientes</h3>
+
+    <article class="foro-reporte">
+        <h3>María Rodríguez</h3>
+        <p><strong>Ruta:</strong> San José - Cartago</p>
+        <p>El autobús lleva aproximadamente 20 minutos de atraso.</p>
+
+        <div class="foro-comentarios">
+            <h4>Comentarios</h4>
+            <p><strong>Andrea:</strong> A mí también me pasó esta mañana.</p>
+            <input type="text" placeholder="Escribir un comentario">
+            <button type="button">Comentar</button>
+        </div>
+    </article>
+
+    <article class="foro-reporte">
+        <h3>Carlos Méndez</h3>
+        <p><strong>Ruta:</strong> Heredia - San José</p>
+        <p>Hay bastante presa en la entrada a San José.</p>
+
+        <div class="foro-comentarios">
+            <h4>Comentarios</h4>
+            <p><strong>Daniel:</strong> Gracias por avisar.</p>
+            <input type="text" placeholder="Escribir un comentario">
+            <button type="button">Comentar</button>
+        </div>
+    </article>
+</section>
 
        <footer>
          <p>Enrutados | Donde nos importa tu tiempo</p>    
