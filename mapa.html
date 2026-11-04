@@ -40,36 +40,34 @@
 
             <div class="mapa">
 
-                <button class="autobus bus1"
-                    data-numero="BUS-101"
-                    data-ruta="San José - Heredia"
-                    data-hora="10:35 a. m.">
-                    🚌
-                </button>
+    <button class="autobus bus1"
+        data-numero="BUS-101"
+        data-ruta="San José - Heredia"
+        data-hora="10:35 a. m."
+        data-id_ruta="103"> <!-- 👈 Mapea con San José - Heredia por Tibás -->
+        🚌
+    </button>
 
-                <button class="autobus bus2"
-                    data-numero="BUS-205"
-                    data-ruta="San José - Alajuela"
-                    data-hora="10:40 a. m.">
-                    🚌
-                </button>
+    <button class="autobus bus2"
+        data-numero="BUS-205"
+        data-ruta="San José - Alajuela"
+        data-hora="10:40 a. m."
+        data-id_ruta="101"> <!-- 👈 Mapea con San José - Alajuela por Pista -->
+        🚌
+    </button>
 
-                <button class="autobus bus3"
-                    data-numero="BUS-310"
-                    data-ruta="Heredia - San José"
-                    data-hora="10:45 a. m.">
-                    🚌
-                </button>
+    <!-- Mapeado para usar los datos del Módulo B (Heredia - Cartago Directo) -->
+<button class="autobus bus3"
+    data-numero="BUS-310"
+    data-ruta="Heredia - Cartago"
+    data-hora="10:45 a. m."
+    data-id_ruta="102">
+    🚌
+</button>
 
-            </div>
 
-            <div class="informacion">
-                <h3>Información del autobús</h3>
+</div>
 
-                <p id="numero">Selecciona un autobús en el mapa.</p>
-                <p id="ruta"></p>
-                <p id="hora"></p>
-            </div>
 
         </section>
 
