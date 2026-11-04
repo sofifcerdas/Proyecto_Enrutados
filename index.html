@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="Eng">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrutados, lugar donde nos importa tu tiempo</title>
+    <link rel=" stylesheet" href="CSS/Colores.css">
+</head>
+
+<body>
+  <header id="Inicio">
+        <h1>Enrutados</h1>
+        <p>Aqui<strong> Tienes todo lo que necesitas </strong>del transporte publico</p>
+    </header>
+    <nav aria-label="Menu principal">
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Rutas">Rutas</a></li>
+            <li><a href="#Foros">Foros</a></li>
+            <li><a href="#Registro">Registro</a></li>
+        </ul>
+    </nav>
+ 
+    <Main>
+
+        <Section class="Bienvenida">
+            <h2>Bienvenidos a Enrutados</h2>
+            <p>Siempre puedes <strong>llegar a tiempo</strong>, <em>a donde te dirijas, </em>
+                conoce sobre rutas, foros en tiempo real y donde esta el bus que necesitas</p>
+
+            <P>Construiremos una pagina con informacion y formulario</P>
+        </Section>
+
+        <section class="Aprendizaje">
+            <h2>Que queremos arreglar?</h2>
+            <oi>
+                <li>Incertidumbre del tiempo que tardara el proximo bus en llegar </li>
+                <li>No saber donde y cuando tengo que tomar un bus</li>
+                <li>La inseguridad de distintos sitios </li>
+                <li>Saber si mi bus tuvo algun percance </li>
+            </oi>
+        </section>
+
+        <section id="Rutas">
+            <h2>Distintas rutas disponibles: </h2>
+            <div class="Contenedor-tarjetas">
+                <article class="Tarjeta">
+                    <img src="imagenes/Cartago.webp" alt="Rutas Cartago">
+                    <h3>Cartago</h3>
+                    <p>Rutas Cartago</p>
+                </article>
+                 <article class="Tarjeta">
+                    <img src="imagenes/San jose.jfif" alt="Rutas San Jose">
+                    <h3>San Jose</h3>
+                    <p>Rutas San Jose</p>
+                </article>
+                 <article class="Tarjeta">
+                    <img src="imagenes/Heredia.webp" alt="Rutas Heredia">
+                    <h3>Heredia</h3>
+                    <p>Rutas Heredia</p>
+                </article>
+                 <article class="Tarjeta">
+                    <img src="imagenes/Alajuela.jfif" alt="Rutas Alajuela">
+                    <h3>Alajuela</h3>
+                    <p>Rutas Alajuela</p>
+                </article>
+            </div>    
+        </section>
+
+        <section id="Registro">
+            <h2>Formulario de registro</h2>
+            <p> Utilice datos de prueba. este ejemplo no tiene base de datos</p>
+            <form action="#" method="POST">
+                <label form="nombre">nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Digite su nombre" required>
+
+                <label form="apellidos">apellidos: </label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Digite sus apellidos" required>
+
+                <label form="Email">Email: </label>
+                <input type="email" id="Email" name="Email" placeholder="Digite su Email" required>
+
+                <label form="edad">edad: </label>
+                <input type="number" id="edad" name="edad" min="15" max="100" required>
+
+                <button type="guardar">Enviar informacion</button>
+            </form>
+       </section>
+
+       <section id="Foros">
+            <h2>Foros en tiempo real</h2>
+            <p> En este apartado va a poder ver los reportes de su ruta de interes, desde personas que se encuentran en dichas rutas</p>
+            <h2>No hay informacion disponible!</h2>
+       </section>
+
+
+
+
+       <footer>
+         <p>Enrutados | Donde nos importa tu tiempo</p>    
+       </footer>
+
+    </Main>
+</body>
+
+</html>
